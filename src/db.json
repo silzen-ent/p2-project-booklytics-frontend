@@ -1,0 +1,336 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 10.99,
+      "pageCount": 309,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/71RVt35ZAbL._SY385_.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": "J.K. Rowling",
+      "price": 12.99,
+      "pageCount": 341,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/81Wbfijio4L._SY385_.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 3,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "author": "J.K. Rowling",
+      "price": 14.99,
+      "pageCount": 386,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/71NaVwWsRDL._SY385_.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter and the Goblet of Fire",
+      "author": "J.K. Rowling",
+      "price": 16.99,
+      "pageCount": 672,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/61m99NmM4jL.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 5,
+      "title": "Harry Potter and the Order of the Phoenix",
+      "author": "J.K. Rowling",
+      "price": 18.99,
+      "pageCount": 870,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5154yBsvQcL._SX322_BO1,204,203,200_.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter and the Half-Blood Prince",
+      "author": "J.K. Rowling",
+      "price": 19.99,
+      "pageCount": 652,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/51sImF7gqML.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 7,
+      "title": "Harry Potter and the Deathly Hallows",
+      "author": "J.K. Rowling",
+      "price": 21.99,
+      "pageCount": 759,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/61yMjtQzKcL.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 8,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 14.99,
+      "pageCount": 322,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/511D+omqzzL.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 9,
+      "title": "The Lion, the Witch and the Wardrobe",
+      "author": "C.S. Lewis",
+      "price": 12.99,
+      "pageCount": 208,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/518I4D+fBgL.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 10,
+      "title": "Prince Caspian",
+      "author": "C.S. Lewis",
+      "price": 13.99,
+      "pageCount": 240,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/71ymmgaj3YL._SY342_.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 11,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "price": 14.99,
+      "pageCount": 423,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/71bocXHoUvL._SY342_.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 12,
+      "title": "The Lord of the Rings: The Two Towers",
+      "author": "J.R.R. Tolkien",
+      "price": 15.99,
+      "pageCount": 454,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/81HfbQ8F2UL._SY342_.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 13,
+      "title": "The Lord of the Rings: The Return of the King",
+      "author": "J.R.R. Tolkien",
+      "price": 16.99,
+      "pageCount": 544,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/51VYSm49SUL._SY445_SX342_.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 14,
+      "title": "The Hobbit Illustrated",
+      "author": "J.R.R. Tolkien",
+      "price": 12.99,
+      "pageCount": 310,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/51phEoA5C9L._SY445_SX342_.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 15,
+      "title": "The Silmarillion",
+      "author": "J.R.R. Tolkien",
+      "price": 19.99,
+      "pageCount": 365,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/81OIMHStUHL._AC_UY218_.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 16,
+      "title": "Unfinished Tales of Numenor and Middle-Earth",
+      "author": "J.R.R. Tolkien",
+      "price": 17.99,
+      "pageCount": 482,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/51eDUv5pCCS.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 17,
+      "title": "The Children of Húrin",
+      "author": "J.R.R. Tolkien",
+      "price": 16.99,
+      "pageCount": 245,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/51CoWEe8HmL.jpg",
+      "genre": "Fantasy",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 18,
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": 14.99,
+      "pageCount": 278,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/61atv8Q26iL.jpg",
+      "genre": "Self-Help",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 19,
+      "title": "48 Laws of Power",
+      "author": "Robert Greene",
+      "price": 16.99,
+      "pageCount": 448,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/41dTDMW9IhL.jpg",
+      "genre": "Self-Help",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 20,
+      "title": "I Will Teach You to Be Rich",
+      "author": "Ramit Sethi",
+      "price": 19.99,
+      "pageCount": 320,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/41ZjrXz3nQL.jpg",
+      "genre": "Self-Help, Personal Finance",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 21,
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "price": 13.99,
+      "pageCount": 231,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/51MT0MbpD7L.jpg",
+      "genre": "Self-Help",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 22,
+      "title": "The Winner Effect",
+      "author": "Mike Cannon-Brookes",
+      "price": 17.99,
+      "pageCount": 288,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/41DWh1hRxoL._SY445_SX342_.jpg",
+      "genre": "Self-Help",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 23,
+      "title": "The Challenger Sale",
+      "author": "Brent Adamson, Matthew Dixon, Pat Lencioni",
+      "price": 18.99,
+      "pageCount": 240,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/41Zs-2qu8OL.jpg",
+      "genre": "Self-Help, Sales",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 24,
+      "title": "How to Win Friends and Influence People",
+      "author": "Dale Carnegie",
+      "price": 15.99,
+      "pageCount": 304,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/51PWIy1rHUL.jpg",
+      "genre": "Self-Help",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 25,
+      "title": "Presuasion",
+      "author": "Robert Cialdini",
+      "price": 15.99,
+      "pageCount": 320,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/51gqP7-wMsL.jpg",
+      "genre": "Self-Help, Psychology",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 26,
+      "title": "Emotional Intelligence 2.0",
+      "author": "Travis Bradberry, Jean Greaves",
+      "price": 16.99,
+      "pageCount": 256,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/51JNVVaYlNL.jpg",
+      "genre": "Self-Help, Psychology",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 27,
+      "title": "Rich Dad, Poor Dad",
+      "author": "Robert Kiyosaki",
+      "price": 14.99,
+      "pageCount": 272,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/51AHZGhzZEL.jpg",
+      "genre": "Personal Finance, Business, Self-Help",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 28,
+      "title": "The Intelligent Investor",
+      "author": "Benjamin Graham",
+      "price": 19.99,
+      "pageCount": 614,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/41apexh1AhL.jpg",
+      "genre": "Personal Finance",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 29,
+      "title": "Sleight of Mouth",
+      "author": "Robert Dilts",
+      "price": 17.99,
+      "pageCount": 384,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/41qrpS+b2XL._SY445_SX342_.jpg",
+      "genre": "Self-Help, Pyschology",
+      "readStatus": "Unread",
+      "favorite": "false"
+    },
+    {
+      "id": 30,
+      "title": "Comedy Writing Secrets",
+      "author": "Mel Helitzer",
+      "price": 18.99,
+      "pageCount": 240,
+      "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/41st4iL7nlL._SY445_SX342_.jpg",
+      "genre": "Humor, Self-Help",
+      "readStatus": "Unread",
+      "favorite": "false"
+
+    }
+  ]
+}
+ 
