@@ -1,48 +1,64 @@
 // App will hold the overall layout & manage the state for the app.
   // Additional Component Ideas at the bottom (below export) 
 
-  import { BrowserRouter as Router, Route, Routes, useParams } from 'react-router-dom';
-  import { useState, useEffect } from 'react';
-  import LibraryList from './components/LibraryList';
+  import './styles.css'  
+  import React, { useState, useEffect } from 'react';
+  import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+  import NavBar from './components/NavBar';
   import Search from './components/Search';
   import BookCard from './components/BookCard';
-  import NavBar from './components/NavBar';
+  import ShelvesDisplay from './components/ShelvesDisplay';
   
   function App() {
-      const [books, setBooks] = useState([]);
-      const [search, setSearch] = useState("");
+  const [books, setBooks] = useState([]);
   
-      useEffect(() => {
-          fetch("http://localhost:3001/books")
-          .then((response) => response.json())
-          .then(setBooks)
-      }, [])
+  useEffect(() => {
+      fetch('http://localhost:3001/books')
+      .then(response => response.json())
+      .then(data => setBooks(data))
+      .catch(error => console.log('Error fetching books:', error));
+  }, []);
   
-      const Book = () => {
-          const { id } = useParams();
-          const book = books.find(book => book.id === id);
-          return book ? <BookCard book={book} /> : <div>Book not found</div>;
+  const updateBookShelf = (bookId, shelf) => {
+      const updatedBooks = books.map(book => {
+      if (book.id === bookId) {
+          book.readStatus = shelf; // Update readStatus
       }
-
-      return (
-          <Router>
-              <NavBar />
-              <Routes>
-                  <Route path="/library" element={<LibraryList />}>
-                      {/* <LibraryList books={books} /> */}
-                  </Route>
-                  <Route path="/search" element={<Search />}>
-                      {/* <Search books={books} setSearch={setSearch} search={search} /> */}
-                  </Route>
-                  <Route path="/book/:id" element={<BookCard />}>
-                      {/* <Book /> */}
-                  </Route>
-              </Routes>
-          </Router>
-      );
+      return book;
+      });
+      setBooks(updatedBooks);
+  
+      // Also update book's shelf on the server.
+          // This utilizes the PATCH method. 
+      fetch(`http://localhost:3001/books/${bookId}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ readStatus: shelf })
+      })
+      .then(response => {
+          if (!response.ok) {
+          throw new Error('Could not update book shelf!');
+          }
+          return response.json();
+      })
+      .catch(error => console.error('Error updating book shelf:', error));
+  };
+  
+  return (
+      <Router>
+      <NavBar />
+      <Routes>
+          <Route path="/" element={<Search books={books} updateBookShelf={updateBookShelf} />} />
+          <Route path="/book/:id" element={<BookCard books={books} />} />
+          <Route path="/library" element={<ShelvesDisplay books={books} updateBookShelf={updateBookShelf} />} />
+      </Routes>
+      </Router>
+  );
   }
   
   export default App;
+  
+  
 
 
 // Book Detail Component:

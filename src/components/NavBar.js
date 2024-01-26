@@ -5,18 +5,24 @@
     // Links: Each route should have a dedicated link.
     // User Profile (Optional): Allow users to personalize their experience and settings.
 
-import { Link } from 'react-router-dom';
-
-
-function NavBar() {
-    return (
-        <nav>
-            <ul>
-                <li><Link to="/library">Library</Link></li>
-                <li><Link to="/search">Search</Link></li>
+    import '../styles.css'    
+    import React from 'react';
+    import { Link } from 'react-router-dom';
+    
+    const NavBar = () => {
+        return (
+        <nav className="navbar">
+            <h1 className="nav-links">Readiculous</h1>
+            <p></p>
+            <ul className="nav-links">
+                
+            <li><Link to="/">Search</Link></li>
+            <li><Link to="/library">My Bookshelf</Link></li>
             </ul>
         </nav>
-    );
-}
+        );
+    };
     
-export default NavBar;
+    export default NavBar;
+    
+    
