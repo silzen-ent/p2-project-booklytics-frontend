@@ -3,6 +3,7 @@
 // Sorting: Enable users to sort books by title, author, pageCount, price, genre, etc.
 // This could also render LibraryList/ShelevsDisplay, a component which would be a list of all books in the library.
 
+
 import React from 'react';
 import BookShelf from './BookShelf'; // Represents a single shelf with a category of books
 import '../styles.css'
@@ -33,6 +34,10 @@ const ShelvesDisplay = ({ books, updateBookShelf }) => {
 };
 
 export default ShelvesDisplay;
+
+
+
+
 
 
 
