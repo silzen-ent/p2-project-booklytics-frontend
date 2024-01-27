@@ -1,7 +1,7 @@
 {
   "books": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Harry Potter and the Sorcerer's Stone",
       "author": "J.K. Rowling",
       "price": 10.99,
@@ -9,10 +9,11 @@
       "imageUrl": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/71RVt35ZAbL._SY385_.jpg",
       "genre": "Fantasy",
       "readStatus": "Unread",
-      "favorite": "false"
+      "favorite": "false",
+      "bio": "Harry Potter and the Philosopher's Stone is a fantasy novel written by British author J. K. Rowling. The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry. Harry makes close friends and a few enemies during his first year at the school, and with the help of his friends, Harry faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old."
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Harry Potter and the Chamber of Secrets",
       "author": "J.K. Rowling",
       "price": 12.99,
@@ -23,7 +24,7 @@
       "favorite": "false"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Harry Potter and the Prisoner of Azkaban",
       "author": "J.K. Rowling",
       "price": 14.99,
@@ -34,7 +35,7 @@
       "favorite": "false"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Harry Potter and the Goblet of Fire",
       "author": "J.K. Rowling",
       "price": 16.99,
@@ -45,18 +46,18 @@
       "favorite": "false"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Harry Potter and the Order of the Phoenix",
       "author": "J.K. Rowling",
       "price": 18.99,
       "pageCount": 870,
-      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5154yBsvQcL._SX322_BO1,204,203,200_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/813lOXWdSNL._AC_UF1000,1000_QL80_.jpg",
       "genre": "Fantasy",
       "readStatus": "Unread",
       "favorite": "false"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Harry Potter and the Half-Blood Prince",
       "author": "J.K. Rowling",
       "price": 19.99,
@@ -67,7 +68,7 @@
       "favorite": "false"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Harry Potter and the Deathly Hallows",
       "author": "J.K. Rowling",
       "price": 21.99,
@@ -78,7 +79,7 @@
       "favorite": "false"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
       "price": 14.99,
@@ -89,7 +90,7 @@
       "favorite": "false"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "The Lion, the Witch and the Wardrobe",
       "author": "C.S. Lewis",
       "price": 12.99,
@@ -100,7 +101,7 @@
       "favorite": "false"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Prince Caspian",
       "author": "C.S. Lewis",
       "price": 13.99,
@@ -111,7 +112,7 @@
       "favorite": "false"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "The Lord of the Rings: The Fellowship of the Ring",
       "author": "J.R.R. Tolkien",
       "price": 14.99,
@@ -122,7 +123,7 @@
       "favorite": "false"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "The Lord of the Rings: The Two Towers",
       "author": "J.R.R. Tolkien",
       "price": 15.99,
@@ -133,7 +134,7 @@
       "favorite": "false"
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "The Lord of the Rings: The Return of the King",
       "author": "J.R.R. Tolkien",
       "price": 16.99,
@@ -144,7 +145,7 @@
       "favorite": "false"
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "The Hobbit Illustrated",
       "author": "J.R.R. Tolkien",
       "price": 12.99,
@@ -155,7 +156,7 @@
       "favorite": "false"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "The Silmarillion",
       "author": "J.R.R. Tolkien",
       "price": 19.99,
@@ -166,7 +167,7 @@
       "favorite": "false"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Unfinished Tales of Numenor and Middle-Earth",
       "author": "J.R.R. Tolkien",
       "price": 17.99,
@@ -177,7 +178,7 @@
       "favorite": "false"
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "The Children of Húrin",
       "author": "J.R.R. Tolkien",
       "price": 16.99,
@@ -188,7 +189,7 @@
       "favorite": "false"
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Think and Grow Rich",
       "author": "Napoleon Hill",
       "price": 14.99,
@@ -199,7 +200,7 @@
       "favorite": "false"
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "48 Laws of Power",
       "author": "Robert Greene",
       "price": 16.99,
@@ -210,7 +211,7 @@
       "favorite": "false"
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "I Will Teach You to Be Rich",
       "author": "Ramit Sethi",
       "price": 19.99,
@@ -221,7 +222,7 @@
       "favorite": "false"
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "The Subtle Art of Not Giving a F*ck",
       "author": "Mark Manson",
       "price": 13.99,
@@ -232,7 +233,7 @@
       "favorite": "false"
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "The Winner Effect",
       "author": "Mike Cannon-Brookes",
       "price": 17.99,
@@ -243,7 +244,7 @@
       "favorite": "false"
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "The Challenger Sale",
       "author": "Brent Adamson, Matthew Dixon, Pat Lencioni",
       "price": 18.99,
@@ -254,7 +255,7 @@
       "favorite": "false"
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "How to Win Friends and Influence People",
       "author": "Dale Carnegie",
       "price": 15.99,
@@ -265,7 +266,7 @@
       "favorite": "false"
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Presuasion",
       "author": "Robert Cialdini",
       "price": 15.99,
@@ -276,7 +277,7 @@
       "favorite": "false"
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "Emotional Intelligence 2.0",
       "author": "Travis Bradberry, Jean Greaves",
       "price": 16.99,
@@ -287,7 +288,7 @@
       "favorite": "false"
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Rich Dad, Poor Dad",
       "author": "Robert Kiyosaki",
       "price": 14.99,
@@ -298,7 +299,7 @@
       "favorite": "false"
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "The Intelligent Investor",
       "author": "Benjamin Graham",
       "price": 19.99,
@@ -309,7 +310,7 @@
       "favorite": "false"
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Sleight of Mouth",
       "author": "Robert Dilts",
       "price": 17.99,
@@ -320,7 +321,7 @@
       "favorite": "false"
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Comedy Writing Secrets",
       "author": "Mel Helitzer",
       "price": 18.99,
@@ -329,8 +330,6 @@
       "genre": "Humor, Self-Help",
       "readStatus": "Unread",
       "favorite": "false"
-
     }
   ]
 }
- 

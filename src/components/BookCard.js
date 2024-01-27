@@ -7,7 +7,7 @@ import './BookShelf'
 
 const BookCard = ({ book }) => {
   const [detailedBook, setDetailedBook] = useState(book);
-  const { id } = useParams(); // Exist when used in route /book/:id--
+  const { id } = useParams(); // Exist when used in route /book/:id
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -49,4 +49,6 @@ const BookCard = ({ book }) => {
 };
 
 export default BookCard;
+
+
 
