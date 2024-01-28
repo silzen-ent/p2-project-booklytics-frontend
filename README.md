@@ -1,3 +1,82 @@
+# Readiculous: Your Personal Book Tracker
+
+Never lose track of your reading adventures again!
+
+Readiculous is a React application that empowers you to organize and manage your reading lists with ease. Stay on top of your literary goals by tracking books you want to read, books you're currently reading, and books you've already conquered. Plus, keep your most beloved books close at hand with the handy "favorite" feature.
+
+# Key Features:
+
+Effortlessly track books across three distinct shelves:
+
+Books to Read
+
+Currently Reading
+
+Completed Books
+
+Discover new literary gems with the search functionality.
+
+Mark your cherished books as favorites for easy access.
+
+Seamlessly navigate between shelves and book details using intuitive navigation.
+
+# Getting Started:
+
+1. Prerequisites:
+
+    Ensure Node.js and npm (or yarn) are installed on your system.
+
+
+
+2. Clone the repository:
+
+   Open a terminal and run either the the HTTPS or SSH URL link provided in this GitHub repository (listed in the green "Code" drop down menu).  
+
+
+
+3. Install dependencies:
+
+    Navigate to the project directory. 
+  
+    Install the required packages running the "npm install" command in your terminal once you're in the parent directory. 
+
+
+
+4. Start the development server:
+
+    Launch the app in development mode. 
+
+    Access the app in your browser, typically at http://localhost:3000/
+
+
+
+# Application Structure:
+
+    App.js: The root component that manages application state, routing, and CRUD operations for books.
+
+    BookCard.js: Represents a single book, displaying its details and offering deletion functionality.
+  
+    BookForm.js: Handles the creation and editing of books.
+  
+    BookShelf.js: Displays a collection of books based on their reading status.
+  
+    ShelvesDisplay.js: Showcases all available bookshelves.
+  
+    Search.js: Enables users to search for books.
+  
+    NavBar.js: Provides navigation links throughout the application.
+
+    styles.css: Provides the styling for the application. 
+
+
+
+Contributing:
+
+Readiculous welcomes contributions! Feel free to submit pull requests or open issues for discussion.
+
+Happy Reading!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
